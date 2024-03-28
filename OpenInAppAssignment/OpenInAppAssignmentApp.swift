@@ -11,7 +11,8 @@ import SwiftUI
 struct OpenInAppAssignmentApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DashboardView()
+                .preferredColorScheme(.light)
         }
     }
 }
