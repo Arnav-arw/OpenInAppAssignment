@@ -64,10 +64,6 @@ struct ChartView: View {
             .chartYAxis {
                 AxisMarks(position: .leading)
             }
-            .chartPlotStyle { plotArea in
-                plotArea
-                    .background(.blue.opacity(0.05))
-            }
             .frame(height: 150)
         }
         .padding(.all, 10)

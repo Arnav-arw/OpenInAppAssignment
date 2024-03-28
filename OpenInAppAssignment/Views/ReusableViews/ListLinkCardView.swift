@@ -44,9 +44,14 @@ struct ListLinkCardView: View {
             .padding(.vertical, 15)
             .background(Color.white)
             Rectangle()
+                .strokeBorder(style: StrokeStyle(lineWidth: 1, dash: [3]))
                 .foregroundStyle(.accentBlue)
-                .opacity(0.2)
+                .opacity(0.7)
                 .frame(height: 40)
+                .background {
+                    Rectangle()
+                        .foregroundStyle(.linkCellBackground)
+                }
                 .overlay {
                     HStack {
                         Text(link.smart_link)
