@@ -49,6 +49,7 @@ struct DashboardView: View {
             ScrollView(showsIndicators: false) {
                 WelcomeView()
                 if let dashboardStats = dashboardVM.dashboardStats {
+                    ChartView()
                     AnalyticsView(dashboard: dashboardStats)
                     ListLinkView(dashboard: dashboardStats)
                     SupportView(dashboard: dashboardStats)

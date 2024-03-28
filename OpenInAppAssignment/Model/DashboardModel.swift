@@ -45,14 +45,14 @@ struct DashboardData: Codable {
     let recent_links : [Links]?
     let top_links : [Links]?
     let favourite_links : [String]?
-    //    let overall_url_chart : Overall_url_chart?
+    let overall_url_chart: Overall_url_chart?
     
     enum CodingKeys: String, CodingKey {
         
         case recent_links = "recent_links"
         case top_links = "top_links"
         case favourite_links = "favourite_links"
-        //        case overall_url_chart = "overall_url_chart"
+        case overall_url_chart = "overall_url_chart"
     }
     
 }
@@ -90,6 +90,61 @@ struct Links: Codable, Identifiable {
         case url_suffix = "url_suffix"
         case app = "app"
         case is_favourite = "is_favourite"
+    }
+    
+}
+
+struct Overall_url_chart : Codable {
+    let hour1: Int
+    let hour2: Int
+    let hour3: Int
+    let hour4: Int
+    let hour5: Int
+    let hour6: Int
+    let hour7: Int
+    let hour8: Int
+    let hour9: Int
+    let hour10: Int
+    let hour11: Int
+    let hour12: Int
+    let hour13: Int
+    let hour14: Int
+    let hour15: Int
+    let hour16: Int
+    let hour17: Int
+    let hour18: Int
+    let hour19: Int
+    let hour20: Int
+    let hour21: Int
+    let hour22: Int
+    let hour23: Int
+    let hour24: Int
+    
+    enum CodingKeys: String, CodingKey {
+        case hour1 = "00:00"
+        case hour2 = "01:00"
+        case hour3 = "02:00"
+        case hour4 = "03:00"
+        case hour5 = "04:00"
+        case hour6 = "05:00"
+        case hour7 = "06:00"
+        case hour8 = "07:00"
+        case hour9 = "08:00"
+        case hour10 = "09:00"
+        case hour11 = "10:00"
+        case hour12 = "11:00"
+        case hour13 = "12:00"
+        case hour14 = "13:00"
+        case hour15 = "14:00"
+        case hour16 = "15:00"
+        case hour17 = "16:00"
+        case hour18 = "17:00"
+        case hour19 = "18:00"
+        case hour20 = "19:00"
+        case hour21 = "20:00"
+        case hour22 = "21:00"
+        case hour23 = "22:00"
+        case hour24 = "23:00"
     }
     
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A506ACE2BB5CC58007BA915 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A506ACD2BB5CC58007BA915 /* ChartView.swift */; };
 		6AF4F6732BB58CAB009AE8A1 /* OpenInAppAssignmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AF4F6722BB58CAB009AE8A1 /* OpenInAppAssignmentApp.swift */; };
 		6AF4F6772BB58CAC009AE8A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF4F6762BB58CAC009AE8A1 /* Assets.xcassets */; };
 		6AF4F67A2BB58CAC009AE8A1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AF4F6792BB58CAC009AE8A1 /* Preview Assets.xcassets */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A506ACD2BB5CC58007BA915 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		6AF4F66F2BB58CAB009AE8A1 /* OpenInAppAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenInAppAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AF4F6722BB58CAB009AE8A1 /* OpenInAppAssignmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenInAppAssignmentApp.swift; sourceTree = "<group>"; };
 		6AF4F6762BB58CAC009AE8A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				6AF4F6802BB58D4F009AE8A1 /* DashboardView.swift */,
+				6A506ACD2BB5CC58007BA915 /* ChartView.swift */,
 				6AF4F6AD2BB5BE16009AE8A1 /* WelcomeView.swift */,
 				6AF4F6A02BB5B469009AE8A1 /* AnalyticsView.swift */,
 				6AF4F6922BB59BA7009AE8A1 /* ListLinkView.swift */,
@@ -247,6 +250,7 @@
 				6AF4F6912BB59A40009AE8A1 /* LinkModel.swift in Sources */,
 				6AF4F6AC2BB5B89E009AE8A1 /* DashboardViewModel.swift in Sources */,
 				6AF4F6A12BB5B469009AE8A1 /* AnalyticsView.swift in Sources */,
+				6A506ACE2BB5CC58007BA915 /* ChartView.swift in Sources */,
 				6AF4F6812BB58D4F009AE8A1 /* DashboardView.swift in Sources */,
 				6AF4F6AA2BB5B7B3009AE8A1 /* DashboardModel.swift in Sources */,
 				6AF4F6A82BB5B6BE009AE8A1 /* NetworkManager.swift in Sources */,
